@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="5.26.1@d747f6500b38ac4f7dfc5edbcae6e4b637d7add0">
+  <file src="tests/src/ContextManagerInterfaceTrait.php">
+    <MixedInferredReturnType>
+      <code><![CDATA[?\Throwable]]></code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="tests/src/ExecutorFactoryInterfaceTrait.php">
+    <MixedInferredReturnType>
+      <code><![CDATA[ExecutorInterface]]></code>
+    </MixedInferredReturnType>
+  </file>
+  <file src="tests/src/ExecutorServiceInterfaceTrait.php">
+    <MixedInferredReturnType>
+      <code><![CDATA[ExecutorInterface]]></code>
+    </MixedInferredReturnType>
+  </file>
+</files>
