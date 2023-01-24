@@ -1,0 +1,40 @@
+{
+    "name": "phptailors/context-interface",
+    "description": "Context interface",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Paweł Tomulik",
+            "email": "pawel@tomulik.pl"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/phptailors/libraries/issues",
+      "source": "https://github.com/phptailors/libraries"
+    },
+    "conflict": {
+        "nikic/php-parser": "< 4.13.2"
+    },
+    "require": {
+        "php": "^8"
+    },
+    "require-dev": {
+        "phptailors/phpunit-inheritance": "dev-master",
+        "phpunit/phpunit": "^9.5.10 || ^10"
+    },
+    "autoload": {
+      "psr-4" : {
+        "Tailors\\Lib\\Context\\" : "src/"
+      },
+      "exclude-from-classmap": [
+        "/tests/"
+      ]
+    },
+    "autoload-dev": {
+      "psr-4" : {
+        "Tailors\\Tests\\Lib\\Context\\" : "tests/src/"
+      }
+    }
+}
