@@ -4,6 +4,8 @@ namespace Tailors\Lib\Context;
 
 /**
  * Interface for context managers.
+ *
+ * @api
  */
 interface ContextManagerInterface
 {
@@ -30,7 +32,7 @@ interface ContextManagerInterface
      * @param ?\Throwable $exception the exception thrown from user function or
      *                               ``null``
      */
-    public function exitContext(?\Throwable $exception): ?\Throwable;
+    public function exitContext(?\Throwable $exception = null): ?\Throwable;
 }
 
 // vim: syntax=php sw=4 ts=4 et:

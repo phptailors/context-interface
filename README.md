@@ -374,7 +374,7 @@ namespace Tailors\Lib\Context;
 interface ContextManagerInterface
 {
     public function enterContext(): mixed;
-    public function exitContext(?\Throwable $exception): ?\Throwable;
+    public function exitContext(?\Throwable $exception = null): ?\Throwable;
 }
 ```
 

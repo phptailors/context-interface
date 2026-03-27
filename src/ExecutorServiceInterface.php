@@ -4,6 +4,8 @@ namespace Tailors\Lib\Context;
 
 /**
  * Interface for Context Manager service.
+ *
+ * @api
  */
 interface ExecutorServiceInterface
 {
